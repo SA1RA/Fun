@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+'use strict';
+
+console.log("badger");
+
+//var = 1;
+//while(n <= 12) {
+//  console.log("badger");
+//  n++
+//}
+
+for (var n = 1; n <= 12; n++) {
+  console.log("badger");
+}
