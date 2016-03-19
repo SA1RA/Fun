@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+'use strict'
+
+var one = '[1]';
+var two = '[2]';
+var three = '[3]';
+var four = '[4]';
+var five = '[5]';
+var six = '[6]';
+var sides = ["",one,two,three,four,five,six]
+
+function randInt(min,max) {
+  return Math.floor((Math.random() * (max - min + 1)) + min);
+  }
+
+  var total = 0;
+
+  for (var i = 0; i < 5; i++) {
+    var somerand = randInt(0,5);
+    //console.log("die = " + somerand);
+    console.log(sides[side].trim());
+    total += somerand;
+  }
+  console.log("Total: " + total);

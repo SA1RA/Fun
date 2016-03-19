@@ -2,6 +2,6 @@
 'use strict';
 
 while (true) {
-  console.log("meow")
+  //console.log("meow")
   process.stdout.write("meow");
 }
